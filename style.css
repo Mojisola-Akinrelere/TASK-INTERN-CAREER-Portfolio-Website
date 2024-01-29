@@ -39,6 +39,7 @@ header{
     background: transparent;
     transition: all .50s ease;
 }
+/* Style the logo */
 .logo{
    font-size: 36px;
    color: var(--text-color); 
