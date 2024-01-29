@@ -73,6 +73,7 @@ span{
     cursor: pointer; 
     display: none;
 }
+/* Style the contact button */
 .h-btn{
     display: inline-block;
     padding: 11px 26px;
