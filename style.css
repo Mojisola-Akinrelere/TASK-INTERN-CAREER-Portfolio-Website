@@ -53,6 +53,7 @@ span{
 .navlist{
     display: flex;
 }
+/* Style the navigation list items (links) */
 .navlist a{
     font-size: var(--p-font);
     font-weight: 500;
