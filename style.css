@@ -8,7 +8,7 @@
     list-style: none;
     scroll-behavior: smooth;
 }
-
+/* Define custom colors and font sizes using CSS variables */
 :root{
     --text-color: #fff;
     --bg-color: #1b1f24;
