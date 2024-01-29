@@ -25,6 +25,7 @@ body{
     color: var(--text-color);
     background: var(--bg-color);
 }
+/* Style the header section */
 header{
     position: fixed;
     width: 100%;
