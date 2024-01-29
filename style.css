@@ -61,6 +61,7 @@ span{
     margin-left: 40px;
     transition: all .50s ease;
 }
+/* Hover effect for navigation links */
 .navlist a:hover{
     color: var(--main-color);
     text-shadow: 3px 3px 20px var(--main-color),-2px 1px 30px var(--text-color); 
