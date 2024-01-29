@@ -49,6 +49,7 @@ header{
 span{
     color: var(--main-color);
 }
+/* Style the navigation list */
 .navlist{
     display: flex;
 }
