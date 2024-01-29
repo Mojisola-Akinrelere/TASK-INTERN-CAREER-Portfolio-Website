@@ -20,7 +20,7 @@
     --h2-color: 2.9rem;
     --p-font: 1rem;
 }
-
+/* Apply styles to the entire body */
 body{
     color: var(--text-color);
     background: var(--bg-color);
