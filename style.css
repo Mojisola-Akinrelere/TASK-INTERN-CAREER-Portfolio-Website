@@ -11,10 +11,10 @@
 /* Define custom colors and font sizes using CSS variables */
 :root{
     --text-color: #fff;
-    --bg-color: #1b1f24;
-    --second-bg-color: #22282f;
-    --main-color: #13bbff;
-    --other-color: #c3cad5
+    --bg-color: #8B4513;
+    --second-bg-color: ##D2B48C;
+    --main-color: #B7410E;
+    --other-color: #36454F
 
     --h1-color: 4.5rem;
     --h2-color: 2.9rem;
@@ -88,8 +88,21 @@ span{
 /* Hover effect for the contact button */
 .h-btn:hover{
     background: var(--main-color);
-    color: var(--bg-color);
+    color: var(--text-color);
     box-shadow: 0 0 20px var(--main-color);
     transform: scale(1.1);
 }
+section{
+    padding: 110px 16% 90px
+}
 
+.hero{
+    height: 100vh;
+    width: 100%;
+    background:url(Assets/Images/6\ \(2\)hn.jpg) ;
+    background-position: top right;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
