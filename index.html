@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags for character set and viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
     <title>My Portfolio Website</title>
+
+    <!-- External stylesheets -->
     <link rel="stylesheet" href="style.css">
-    <!-- box icon link -->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <!-- remix icon link -->
+    <!-- Box icon link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Remix icon link -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
     <!-- Google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +21,11 @@
 </head>
 <body>
 
-    <!-- header -->
+    <!-- Header section -->
     <header>
-        <a href="#" class="logo" ><span>M</span>ojisola <span>O.</span></a>
-        <!-- Menu icon -->
+        <!-- Logo and navigation -->
+        <a href="#" class="logo"><span>M</span>ojisola <span>O.</span></a>
         <div class="bx bx-menu" id="menu-icon"></div>
-         <!-- Navigation List -->
         <ul class="navlist">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -30,28 +33,29 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <!-- Top Button for Contact -->
+        <!-- Top button for contact -->
         <div class="top-btnn">
             <a href="#" class="h-btn">Contact me</a>
         </div>
     </header>
 
-    <!-- hero -->
+    <!-- Hero section -->
     <section class="hero" id="home">
         <div class="main-content">
+            <!-- Introduction and call to action -->
             <h4>Hello,</h4>
             <h1>I'm <span>Mojisola O. Akinrelere</span></h1>
             <h2><span>DATA ANALYST </span>&<span> FRONTEND DEVELOPER</span></h2>
-            <p>Transforming Data into Insights and Designing Experiences, Your Frontend Visionary: Where Analytics Meets Design Excellence in Every Line of Code!</p>        
+            <p>Transforming Data into Insights and Designing Experiences, Your Frontend Visionary: Where Analytics Meets Design Excellence in Every Line of Code!</p>
+            <!-- Social links and buttons -->
             <h5>Find me on</h5>
             <div class="social">
                 <a href="#" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
-                <a href="#" aria-label="instagram"><i class="ri-instagram-line"></i></a>
-                <a href="#" aria-label="twitter"><i class="ri-twitter-x-line"></i></a>
-                <a href="#" aria-label="github"><i class="ri-github-fill"></i></a>
-                <a href="#" aria-label="Linkedin"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="#" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+                <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+                <a href="#" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
             </div>
-
             <div class="main-btn"> 
                 <a href="#" class="btn">Hire me</a>
                 <a href="#" class="btn btn2">Download Resume</a>
@@ -59,32 +63,26 @@
         </div>
     </section>
 
-    <!-- about -->
-        <div id="about">
-            <div>
-                <div class="container">
-                    <div class="row">
-                        <div class="about-col-1">
-                          <img src="Assets/Images/mj portrait 1.png">  
-                        </div>
-                        <div class="about-col-2">
-                            <h1 class="sub-title">About Me</h1>
-                            <p>Hi there, I'm Mojisola O. Akinrelere, and I'm passionate about unraveling data mysteries and crafting engaging web experiences. I find joy in translating intricate datasets into meaningful stories that empower informed decision-making. Whether it's bringing order to data in various fields as a Data Analyst or creating visually appealing websites as a Frontend Developer, I thrive on blending analytical insights with captivating design.<br>
-                                <br>
-                                As a Data Analyst, my focus is on digging into complex data to uncover patterns and trends. I love the challenge of making data more accessible and understandable, allowing it to tell a compelling story. Simultaneously, my skills as a Frontend Developer come into play as I use HTML, CSS, JavaScript and React to bring creative and user-friendly interfaces to life. What sets me apart is my ability to seamlessly merge the analytical and creative sides, turning data insights into interactive visuals that not only make sense but also look fantastic.<br>
-                                <br>
-                                Join me on this exciting journey where analytics meets aesthetics, and together, we'll craft compelling narratives from every data point. Welcome to my digital space!
-                                </p>
-                        </div>
-                    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- Image and text content -->
+                <div class="about-col-1">
+                    <img src="Assets/Images/mj portrait 1.png" alt="Mojisola's Portrait">  
                 </div>
-            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there, I'm Mojisola O. Akinrelere, and I'm passionate about unraveling data mysteries and crafting engaging web experiences. I find joy in translating intricate datasets into meaningful stories that empower informed decision-making. Whether it's bringing order to data in various fields as a Data Analyst or creating visually appealing websites as a Frontend Developer, I thrive on blending analytical insights with captivating design.<br>
+                        <br>
+                        As a Data Analyst, my focus is on digging into complex data to uncover patterns and trends. I love the challenge of making data more accessible and understandable, allowing it to tell a compelling story. Simultaneously, my skills as a Frontend Developer come into play as I use HTML, CSS, JavaScript, and React to bring creative and user-friendly interfaces to life. What sets me apart is my ability to seamlessly merge the analytical and creative sides, turning data insights into interactive visuals that not only make sense but also look fantastic.<br>
+                        <br>
+                        Join me on this exciting journey where analytics meets aesthetics, and together, we'll craft compelling narratives from every data point. Welcome to my digital space!</p>
+                    
+    </div>
+    <!-- -----------services-------- -->
 
-        </div>
-        
-    </section>
-
-    <!-- js link -->
-    <script src="script.js" ></script>
+    <!-- JavaScript link -->
+    <script src="script.js"></script>
 </body>
 </html>
