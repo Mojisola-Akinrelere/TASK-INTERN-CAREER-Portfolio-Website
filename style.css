@@ -12,7 +12,7 @@
 :root{
     --text-color: #fff;
     --bg-color: #8B4513;
-    --second-bg-color: ##D2B48C;
+    --second-bg-color: #D2B48C;
     --main-color: #B7410E;
     --other-color: #36454F
 
@@ -228,4 +228,30 @@ section{
     text-align: justify;
     font-weight: bold;
     margin-right: 100px;
+}
+/* Styling for the container of tab titles */
+.tab-titles {
+    display: flex;
+    margin: 20px 0 40px; /* Top and bottom margin, creating space around the tab titles */
+}
+
+/* Styling for individual tab links */
+.tab-links {
+    margin-right: 50px; /* Right margin to create space between tab links */
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Pseudo-element for creating an underline effect on tab links */
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: var(--main-color); /* Use of a variable for consistent color */
+    position: absolute;
+    left: 0;
+    bottom: -8px; /* Positioning the underline slightly below the text */
+    transition: 0.5s; /* Smooth transition effect for the underline */
 }
