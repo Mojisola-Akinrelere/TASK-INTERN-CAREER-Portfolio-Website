@@ -255,3 +255,32 @@ section{
     bottom: -8px; /* Positioning the underline slightly below the text */
     transition: 0.5s; /* Smooth transition effect for the underline */
 }
+/* Styling for the underline effect on the active tab link */
+.tab-links.active-link::after {
+    width: 50%; /* Set the width of the underline to 50% for emphasis */
+}
+
+/* Styling for list items within the tab contents */
+.tab-contents ul li {
+    list-style: none; /* Remove default list styles for cleaner appearance */
+    margin: 10px 0; /* Add margin for spacing between list items */
+}
+
+/* Styling for spans within list items, often used for additional decoration */
+.tab-contents ul li span {
+    background-color: #fff; /* White background for the span */
+    color: var(--main-color); /* Text color using a variable for consistency */
+    padding-right: 10px; /* Right padding for space around text */
+    padding-left: 8px; /* Left padding for space around text */
+    border-radius: 10px; /* Rounded corners for a decorative effect */
+}
+
+/* Hide all tab contents by default */
+.tab-contents {
+    display: none;
+}
+
+/* Display the active tab content by changing the display property */
+.tab-contents.active-tab {
+    display: block;
+}
